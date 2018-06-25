@@ -1,0 +1,25 @@
+{
+  "jsonrpc":"2.0",
+  "id":"042018",
+  "method":"get.communications_report",
+  "params":{
+    "access_token":"tai78ognipdgigkeo1w2lysobmzlx4lj34btklq2",
+    "limit":10000,
+    "date_from":"2018-04-01 00:00:00",
+    "date_till":"2018-04-08 23:59:59",
+    "fields":[
+      "id",
+      "communication_type",
+      "date_time",
+      "campaign_name",
+      "campaign_id",
+      "attributes",
+      "tags",
+      "utm_source",
+      "utm_medium",
+      "utm_term",
+      "utm_content",
+      "utm_campaign"
+    ]
+  }
+}
